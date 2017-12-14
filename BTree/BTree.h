@@ -24,7 +24,7 @@ public:
     }
     inline void setRoot(BTreeNode* r){root = r;}
     inline BTreeNode* getRoot(){return root;}
-    //create BTree
+    //create BTree and return root
     BTreeNode* create();
     //visit BTreeNode with recursion
     void proOrder();
@@ -41,6 +41,7 @@ public:
     int BtreeLeaves();
     //height
     int BTreeHeight();
+    void SwapInProOrder();
 
 protected:
     //visit BTreeNode with recursion

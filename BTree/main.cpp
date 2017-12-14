@@ -4,10 +4,8 @@
 	> Mail: 786016746@qq.com
 	> Created Time: 2017年11月05日 星期日 16时21分40秒
  ************************************************************************/
-
 #include<iostream>
 #include"BTree.h"
-
 using namespace std;
 
 int main(void)

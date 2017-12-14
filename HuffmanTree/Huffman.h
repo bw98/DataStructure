@@ -1,12 +1,12 @@
 /*************************************************************************
-	> File Name: HuffmanNode.h
+	> File Name: Huffman.h
 	> Author: bw98
 	> Mail: 786016746@qq.com 
 	> Created Time: 2017年11月06日 星期一 23时53分24秒
  ************************************************************************/
 
-#ifndef _HUFFMANNODE_H
-#define _HUFFMANNODE_H
+#ifndef _HUFFMAN_H
+#define _HUFFMAN_H
 
 class HuffmanNode{
 public:

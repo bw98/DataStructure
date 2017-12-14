@@ -28,3 +28,7 @@ BTreeNode* BTree::create()
     }
 }
 
+void BTree::SwapInProOrder()
+{
+    
+}

@@ -1,4 +1,7 @@
 # git_DataStructure
 Program complemented by C++
-###### 1、BTree
-###### 2、HumanTree % including code and translate
+
+###### 1、BTree(partly complemented)
+###### 2、HuffmanTree(include HuffmanCode and translation)
+###### 3、GraphVisit(include Dfs) 
+

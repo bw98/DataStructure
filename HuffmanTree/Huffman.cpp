@@ -7,7 +7,6 @@
 #include<iostream>
 #include"Huffman.h"
 #include<algorithm>
-#include<numeric>
 #include<fstream>
 #include<string>
 #include<assert.h>
