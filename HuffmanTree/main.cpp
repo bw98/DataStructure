@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
     if (argc != 4) {
-        std::cout << "usage is executiveFileName inFileName outFisrtFileName outSecondFileName" << std::endl;
+        std::cout << "usage is: "executiveFileName inFileName outFisrtFileName outSecondFileName "" << std::endl;
         return 0;
     }
      
