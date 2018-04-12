@@ -63,7 +63,7 @@ int HuffmanTree::myStrlen(const char array[]) const
     while(*p != '\0')
         p++;
     return (p - array);
-    
+
 }
 
 void HuffmanTree::myStrcpy(char des[], char source[])
@@ -117,7 +117,7 @@ void HuffmanTree::reverse(char array[])
     array[len] = '\0';
     delete[] p;
 }
-    
+
 void HuffmanTree::createHuffmanCode()
 {
     codeArray = new Code[currentSize];
@@ -180,7 +180,7 @@ int HuffmanTree::findInfoPosition(const char &ch) const
 
 void HuffmanTree::start(const char *inFileName, const char *outFileName, const char *secondOutFileName)
 {
-    cout << "Enter function (start) now" << endl;
+    //cout << "Enter function (start) now" << endl;
     ifstream fileIn(inFileName, ios::in);
     assert(fileIn);
     if (!fileIn) {
@@ -197,7 +197,7 @@ void HuffmanTree::start(const char *inFileName, const char *outFileName, const c
         if (pos != -1)
             arrayTree[pos].weight++;
         else
-            insert(ch, 1);        
+            insert(ch, 1);
         fileIn >> ch;
     }
 
@@ -221,7 +221,7 @@ void HuffmanTree::start(const char *inFileName, const char *outFileName, const c
     }
     fileIn.close();
     fileOut.close();
-    
+
     //transcode and make it into secondOutFileName
     fileIn.open(outFileName, ios::in);
     fileOut.open(secondOutFileName,ios::out);

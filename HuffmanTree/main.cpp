@@ -9,14 +9,15 @@
 int main(int argc, char *argv[])
 {
     if (argc != 4) {
-        std::cout << "usage is: "executiveFileName inFileName outFisrtFileName outSecondFileName "" << std::endl;
+        std::cout << "usage is: " <<
+            " executiveFileName inFileName outFisrtFileName outSecondFileName " << std::endl;
         return 0;
     }
-     
     const char *inFileName = argv[1];
     const char *outFisrtFileName = argv[2];
     const char *secondOutFileName = argv[3];
     HuffmanTree *t = new HuffmanTree();
     t->start(inFileName, outFisrtFileName, secondOutFileName);
+    delete t;
     return 0;
 }
